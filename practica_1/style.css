@@ -1,0 +1,307 @@
+/*/ CUERPO /*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+/*/ HEADER /*/
+ul, ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+header{
+ display: flex;
+ background-color: #24262b;
+ flex-direction:row;
+ align-items: center;
+ justify-content: space-between;
+ padding: 30px;
+}
+
+header,nav, ul {
+  display: flex;
+  gap: 2.2em;
+  text-decoration: none;
+}
+ 
+ header nav ul li a{
+ color: #FFFFFF;
+}
+ .fa-solid{
+ color: #FFFFFF;
+ font-size: 2em;
+}
+
+/*/ MAIN /*/
+#encabezado{
+  text-align: center;
+  font-size: 30px;
+  margin: 30px 500px 30px 500px
+ }
+ .fuente-acento{
+  text-align: center;
+  font-size: 30px;
+  margin: 30px 500px 30px 500px;
+  background-color: rgb(27, 153, 27);
+  border:solid black 2px;
+ }
+ .seccion1{
+  background-color: antiquewhite;
+ }
+ .seccion2{
+  background-color: antiquewhite;
+ }
+#seccion-principal{
+  width: 100%;
+}
+
+.tecnomalanca-imagen{
+display: flex;
+justify-content: left;
+}
+
+.tecnomalanca-imagen2{
+
+display: flex;
+justify-content:right;
+}
+
+#pfo-img1{
+ justify-content:space-between;
+ font-family: "Roboto Slab", serif;
+ font-size: 20px;
+ margin-left: 20px;
+}
+
+#pfo-img2{
+ font-family: "Roboto Slab", serif;
+ font-size: 20px;
+ margin-right: 20px; 
+ margin-top: 10px;
+ margin-left: 20px;
+}
+
+#trabajos{
+  padding: 0px 0px 0px 30px;
+  margin: 100px 30px 40px 30px;
+ color: rgb(151, 112, 13);
+ text-decoration: underline;
+ background-color: #FFFFFF;
+}
+
+/*/ FORMULARIOS /*/
+
+.titulo_seccion{
+  position: relative;
+  font-size: 30px;
+  color: #003750;
+  text-align: center;
+}
+.contenete{
+  width: 1px;
+  margin: 0 auto;
+  padding: 10px 450px 5px 50px;
+  border:solid black 1px;
+  border-radius: 20px;
+}
+.form-group{
+  margin-bottom: 0px;
+}
+label{
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 30em;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+textarea{
+  resize: vertical
+}
+button{
+  color: black;
+  background-color: #003750;
+  width: 4em;
+  padding: 0.5em;
+  margin: auto;
+  border: #24262b;
+}
+button:hover{
+  background-color: #0056b3;
+}
+#nombre{
+  display: flex;
+}
+#email{
+  display: flex;
+}
+#mensaje{
+  display: flex;
+}
+/*/CAJAS/*/
+
+.cajas{
+ width: 100%;
+}
+
+.containerr{
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+}
+.card{
+  width: 100%;
+  margin: 60px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+.card:hover{
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+  transform: translateY(-3%);
+}
+.card img{
+  width: 100%;
+  height: 210px;
+}
+.boxess{
+  display: flex;
+}
+#trabajos{
+  text-decoration: underline;
+  display: flex;
+}
+
+/*/ footer de frases/*/
+#btn-generar{
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 20px;
+  color: white;
+  background-color: #003750;
+  width: 300px;
+  padding: 7px;
+  margin: 10px 10px 10px 10px;
+  border: #2247a7;
+}
+
+
+.footer{
+  font-style:oblique;
+  color: white;
+  background-color: #24262b;
+  bottom: 0;
+  margin: 15px 10px 15px 10px;
+  padding: 15px;
+}
+/*/ FOOTER /*/
+
+#footer{
+  color: white;
+ background-color: #24262b;
+ bottom: 0;
+ margin: 15px 0px 15px 0px;
+ padding: 15px;
+}
+
+#contacto{
+  display: flex;
+  color: rgb(20, 179, 25);
+  line-height: 2em;
+}
+
+/* Menu */
+#check{
+  display: none;
+}
+footer ol li a{
+  text-decoration: none;
+  list-style: none;
+  color: #FFFFFF;
+  display: flex;
+  line-height: 1.5em;
+}
+.checkbtn{
+  font-size: 25px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#footer-frases{
+  color: white;
+  bottom: 0;
+  margin: 10px;
+  padding: 15px;
+}
+#frase{
+  text-align: center;
+  display: inline;
+}
+/* media queris/*/
+
+@media (max-width: 768px) {
+
+  header{
+    background-color: burlywood;
+  }
+  .acerca-de{
+    text-align: center;
+  }
+  .acerca-imagen{
+    margin-bottom: 40px;
+  }
+  h2.fuente-acento{
+    text-align: center;
+  }
+  .checkbtn{
+    display: block;
+  }
+  #encabeza ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: 100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  #encabeza nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  #encabeza nav ul li a{
+    font-size: 20px;
+  }
+  #check:checked ~ .checkbtn{
+    color: #2c3e50;
+  }
+  #check:checked ~ ul{
+    left: 0;
+    display: block;
+  }
+
+}
